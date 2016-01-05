@@ -1,0 +1,27 @@
+{
+  "name": "article",
+  "plural": "article",
+  "base": "ACL",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "categorie": {
+      "type": "string",
+      "required": true
+    },
+    "authorId": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
