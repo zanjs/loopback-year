@@ -17,6 +17,6 @@ RUN   \
   rm -f /opt/node-v0.10.28-linux-x64.tar.gz
  
 # Set the working directory
-WORKDIR   /src
+WORKDIR   /
  
 CMD ["/bin/bash"]
